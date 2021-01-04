@@ -34,8 +34,8 @@ plot1 = hist1.dist_curve()
 #Linear Regression using Statsmodel
 import numpy as np
 import statsmodels.api as sm
-spector_data = sm.datasets.spector.load(as_pandas=False)
-spector_data.exog = sm.add_constant(spector_data.exog, prepend=False)  
+spector_data = sm.datasets.spector.load(as_pandas=False)   
+spector_data.exog = sm.add_constant(spector_data.exog, prepend=False)     #exogenous: caused by factors outside the system
 mod = sm.OLS(spector_data.endog, spector_data.exog)#Fitting OLS
 res = mod.fit()
 print(res.summary())
