@@ -1,0 +1,3 @@
+The multi-armed bandit problem is a class example to demonstrate the exploration versus exploitation dilemma. 
+
+The dynamic pricing can be seen as one of the subytpe of this classical bandit problem.
