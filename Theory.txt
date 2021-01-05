@@ -1,3 +1,10 @@
 The multi-armed bandit problem is a class example to demonstrate the exploration versus exploitation dilemma. 
 
 The dynamic pricing can be seen as one of the subytpe of this classical bandit problem.
+
+Approach:
+1. Epsilon Greedy Approach
+2. UCB1 Approach
+3. BayesianUCB Approach
+4. ThompsonSampling
+
