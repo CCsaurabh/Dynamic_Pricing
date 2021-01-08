@@ -14,6 +14,7 @@ class norm1:
         self.b1 = b1    #Standard deviation
         self.c1 = c1    #The X value
         
+        
     def dist_curve(self):
         plt.plot(self.c1, 1/(self.b1 * np.sqrt(2 * np.pi)) *
             np.exp( - (self.c1 - self.a1)**2 / (2 * self.b1**2) ), linewidth=2, color='y')
@@ -22,6 +23,7 @@ class norm1:
 #mean 0 and sd 1 for the standard normal distribution
 mean = 0
 sd = 1
+
 
 c = np.random.normal(mean, sd, 3000)
         
